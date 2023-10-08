@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>webWizards</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="barra-nav">
+            <img src="img/logo-removebg-preview.png" width="90px" alt="logo">
+            <ul>
+                <div class="items-nav">
+                    <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-user-large"></i>Servicios</a></li>
+                    <li><a href="#"><i class="fa-solid fa-book"></i>Planes</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="primer-seccion">
+            <div>
+                <h1>Nesecitas una pagina web para tu empresa??<br><a href="#">contactanos</a></h1>
+                <img id="web" src="img/Online world-amico.png" width="500px" alt="web">
+            </div>
+        </section>
+    </div>
+    <div id="apartado-2">
+        <div class="container">
+            <section class="segunda-seccion">
+                <dl>
+                    <dt>
+                        <h2>Sobre nosotros...</h2>
+                    </dt>
+
+                    <dd>
+                        <p>Somos una pequeña empresa de creación y diseño de paginas web que ofrece sus servicios a
+                            pequeños
+                            emprendedores que apenas salen a luz, pero que aun no saben hacerse un lugar dentro de esta
+                            nueva
+                            era
+                            digital
+                        </p>
+                    </dd>
+                    <dt>
+                        <h2>Objetivo....</h2>
+                    </dt>
+                    <dd>
+                        <p>Nuestro objetivo es ofrecer oportunidades, aportando nuestros conocimientos, de
+                            impulsar los proyectos de los clientes para que logren alcanzar la modernización o ser parte
+                            del mercado competitivo.
+                        </p>
+                        <p>Ayudar a crear una imagen o apariencia, dar una buena
+                            experiencia de usuario para los
+                            clientes del negocio sobre el que brindaremos nuestro apoyo es el objetivo, crear confianza
+                            y seguridad</p>
+                    </dd>
+
+                </dl>
+            </section>
+
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <dl>
+                <dt>
+                    <h3>nuestro servicio incluye:</h3>
+                </dt>
+                <dd>- planificacion de diseño</dd>
+                <dd>- desarrollo atravez de recursos y herramientas nativas</dd>
+                <dd>- diseño de base de datos</dd>
+                <dd>- implementacion de mecanismos de seguridad</dd>
+                <dd>- hosting y dominio (paga)</dd>
+            </dl>
+            <dl>
+                <dt>
+                    <h3>tecnologias disponibles:</h3>
+                </dt>
+                <dd>- node js</dd>
+                <dd>- react js</dd>
+                <dd>- angular js</dd>
+                <dd>- mongoDB</dd>
+                <dd>- express</dd>
+            </dl>
+        </div>
+
+    </section>
+    <section class="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Por favor, complete el siguiente formulario para ponerse en contacto con nosotros:</p>
+            <form action="procesar_formulario.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <center>
+                <h3>pagina web prototipo<br>para la asignatura de emprendimiento</h3>
+                <h4>By: Jefferson Chaustre<br>&copy;2023</h4>
+                <h5></h5><i class="fa-brands fa-facebook"> <i class="fa-brands fa-instagram"></i> <i
+                        class="fa-brands fa-x-twitter"></i></i>
+            </center>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
